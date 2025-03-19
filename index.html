@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAComp - Centro Acadêmico de Ciência da Computação</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Custom CSS para propriedades dinâmicas */
+        :root {
+            --dynamic-primary: #006747;
+            --dynamic-secondary: #FFD100;
+            --dynamic-gradient: linear-gradient(135deg, var(--ufersa-blue) 0%, var(--ufersa-green) 100%);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="brasao-ufersa.png" alt="UFERSA" class="logo-img">
+                <div class="logo-text">
+                    <span>CAComp</span>
+                    <small>UFERSA - 2025.1</small>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#recepcao" class="nav-link">Recepção</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre Nós</a></li>
+                <li><a href="#ufersa" class="nav-link">UFERSA</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="particles-container" id="particles-js"></div>
+        <div class="hero-content">
+            <div class="logos-container">
+                <img src="brasao-ufersa.png" alt="UFERSA" class="hero-logo">
+                <img src="logo-cacomp.png" alt="CAComp" class="hero-logo">
+            </div>
+            <h1 class="hero-title">
+                <span class="text-reveal">Bem-vindos, Calouros!</span>
+                <span class="text-reveal delay-1">Computação 2025.1</span>
+            </h1>
+            <div class="hero-info">
+                <div class="info-item animate-fade-in delay-2">
+                    <span class="icon">📅</span>
+                    <span>14 de Abril | 08:00h</span>
+                </div>
+                <div class="info-item animate-fade-in delay-3">
+                    <span class="icon">📍</span>
+                    <span>LCC - Bloco de Computação</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <div class="mouse" style="transform-style: preserve-3d; perspective: 1000px;">
+                <div class="wheel"></div>
+            </div>
+            <div>
+                <span class="scroll-text"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="curso" class="course-info">
+        <h2 class="section-title">Ciência da Computação na UFERSA</h2>
+        <div class="course-content">
+            <div class="course-description">
+                <p>O curso de Bacharelado em Ciência da Computação da UFERSA forma profissionais capacitados para atuar no desenvolvimento de software, análise de sistemas e pesquisa em tecnologia.</p>
+                <p>Com uma formação sólida em programação, algoritmos e estruturas de dados, os alunos são preparados para os desafios tecnológicos do mercado atual.</p>
+            </div>
+            <div class="course-highlights">
+                <div class="highlight">
+                    <div class="highlight-icon">🎓</div>
+                    <h3>Bacharelado</h3>
+                    <p>8 semestres de formação completa</p>
+                </div>
+                <div class="highlight">
+                    <div class="highlight-icon">💻</div>
+                    <h3>Laboratórios</h3>
+                    <p>Infraestrutura moderna para aulas práticas</p>
+                </div>
+                <div class="highlight">
+                    <div class="highlight-icon">🔬</div>
+                    <h3>Pesquisa</h3>
+                    <p>Oportunidades de iniciação científica</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recepcao" class="reception">
+        <h2 class="section-title">Recepção de Calouros 2025</h2>
+        <div class="event-highlight">
+            <div class="event-date">
+                <div class="date-day">14</div>
+                <div class="date-month">ABRIL</div>
+            </div>
+            <div class="event-details">
+                <h3>Apresentação da Universidade</h3>
+                <div class="event-info">
+                    <div class="info-item">
+                        <span class="info-icon">⏰</span>
+                        <span>08:00 - 12:00</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <span>UFERSA Campus Mossoró</span>
+                    </div>
+                </div>
+                <p class="event-description">Conheça o curso de Ciência da Computação, os professores e a estrutura da universidade. Esta é uma oportunidade para tirar dúvidas e conhecer seus colegas de curso.</p>
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <span id="days">00</span>
+                        <small>Dias</small>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <small>Horas</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h2 class="section-title">Sobre o Centro Acadêmico</h2>
+                <p>O Centro Acadêmico de Ciência da Computação (CAComp) está em processo de formação para representar os estudantes do curso, promover atividades acadêmicas e culturais, e defender os interesses dos alunos.</p>
+                <p>Estamos nos primeiros passos e convidamos todos os calouros interessados a participarem da construção deste importante espaço de representação estudantil.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-box">
+                    <div class="stat-icon">🚀</div>
+                    <div class="stat-label">Em formação</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-label">Participe!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ufersa" class="university-info">
+        <div class="info-container">
+            <div class="campus-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.3026412111066!2d-37.34622539076026!3d-5.20370435413637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ba05791979e377%3A0xa8b1d13f78f5c397!2sUFERSA%20-%20Universidade%20Federal%20Rural%20do%20Semi-%C3%81rido!5e0!3m2!1spt-BR!2sbr!4v1699963151811!5m2!1spt-BR!2sbr" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    class="campus-iframe"></iframe>
+            </div>
+            <div class="course-details">
+                <h2>Sobre a Universidade</h2>
+                <div class="ufersa-facts">
+                    <div class="fact">
+                        <h3>📚 UFERSA</h3>
+                        <p>A Universidade Federal Rural do Semi-Árido (UFERSA) é uma instituição pública brasileira de ensino superior com sede em Mossoró, Rio Grande do Norte.</p>
+                    </div>
+                    <div class="fact">
+                        <h3>🌵 Campus Mossoró</h3>
+                        <p>O campus central da UFERSA está localizado em Mossoró e oferece excelente infraestrutura para ensino, pesquisa e extensão.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <p>cacomp.ufersa@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <h3>Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <img src="instagram-logo.png" alt="Instagram" class="social-icon-img">
+                            Instagram
+                        </a>
+                        <a href="https://discord.gg/3wpgNt8a" class="social-link discord-link">
+                            <img src="discord-logo.png" alt="Discord" class="social-icon-img">
+                            Discord
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <h3>Localização</h3>
+                    <p>LCC - Laboratório de Ciência da Computação<br>Campus Mossoró/RN</p>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" placeholder="Seu nome completo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="seu.email@exemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" placeholder="Sua mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-logos">
+            <img src="brasao-ufersa.png" alt="UFERSA" class="footer-logo">
+            <img src="logo-cacomp.png" alt="CAComp" class="footer-logo">
+        </div>
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h4>CAComp - Centro Acadêmico de Ciência da Computação</h4>
+                <p>UFERSA - Universidade Federal Rural do Semi-Árido<br>
+                Campus Mossoró - Rio Grande do Norte</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 CAComp - Em formação</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
